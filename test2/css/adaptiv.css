@@ -1,0 +1,214 @@
+@media  screen and (max-width:900px ) {
+.navigation{
+	margin-left: 20px;
+}
+.navigation .bar{
+	display: inline-block;
+	margin-left: 50px;
+}
+.logo{
+	font-size: 
+}
+.content{
+	display: block;
+	text-align: center;
+}
+.fa{
+	color: #fff;
+}
+#menu_bar{
+	display: none;
+	background-color: #2b303b;
+	margin-top: 20px;
+	position: absolute;
+	z-index: 1;
+	width:100px;
+}
+.navigation > ul > li{
+	display: block;
+	margin-left: 0;
+	text-align: center;
+	font-size: 15px;
+	border-bottom:2px solid #fff;
+	line-height: 50px;
+}
+
+.man{
+	display: none;
+}
+.copy{
+	float: none;
+	text-align: center;
+	right: 0;
+	top: 0;
+}
+.big1{
+	font-size: 34px;
+}
+.copy .big2{
+	font-size: 50px;
+}
+.copy .big3{
+	font-size: 34px;
+	line-height: 50px;
+}
+.copy p{
+	font-size: 15px;
+}
+.cont{
+	text-align: center;
+}
+.services{
+	margin-top: 5%;
+	text-align: center;
+}
+.nav1,.nav2,.nav3{
+	font-size: 40px;
+}
+.navig{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0;
+	float: none;
+}
+.kartinki{
+	margin-top: 5%;
+}
+.kartinki  li:nth-child(2n+1){
+	padding-top: 2%;
+}
+.kartinki  li{
+	margin-right: 0;
+	margin-bottom: 3%;
+}
+.th1{
+	display: none;
+}
+img{
+	margin: 0 auto;
+	max-width: 80%;
+}
+.thirdcont{
+	margin-top: 8%;
+}
+.phone,.name,.email,.th23,.message{
+	float: none;
+}
+
+.name ,.email ,.phone,.message{
+	width: 70%;
+}
+.phone{
+	margin-right: 20px;
+}
+.message{
+	margin-right: 20px;
+}
+.awes{
+	font-size: 30px;
+}
+.her{
+	font-size: 20px;
+}
+.fon i{
+	left:30px;
+}
+form{
+	text-align: center;
+}
+table td{
+	display: block;
+	text-align: center;
+	border: 2px solid #a3a3a3;
+	padding: 5%;
+}
+td:nth-child(4){
+	border-bottom:2px solid #a3a3a3; 
+}
+.services-first{
+	margin-top:5%;
+}
+.services{
+	padding-top:0;
+	padding-bottom: 3%;
+}
+
+.ie{
+	font-size: 20px!important;
+	margin-left: -35px;
+}
+
+}
+
+@media  screen and (max-width:1150px){
+.th1{
+	float: none;
+	margin: 0 auto;
+}
+	.searchbox input#search{
+		width: 20%;
+	}
+.th23{
+	float: none;
+	margin: 0 auto;
+}
+	#controls{
+		display: none;
+	}
+}
+@media  screen and (max-width:450px){
+	.logo{
+		font-size: 30px;
+		padding-left: 20px;
+	}
+	.seve > li{
+		margin-right: 10px;
+	}
+	.logo:after{
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+	.lorr{
+		font-size: 15px;
+	}
+	.big1{
+	font-size: 20px;
+	}
+	.copy .big2{
+		font-size: 30px;
+	}
+	.copy .big3{
+		font-size: 20px;
+	}
+	.copy p{
+		font-size: 10px;
+	}
+	.navigation .searchbox .icon{
+		margin-left: 80%;
+	}
+}
+
+@media  screen and (max-width:903px){
+	.subm{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	#slider p{
+		font-size: 15px;
+		padding-top: 100px;
+	}
+	.comm .os{
+	font-size: 100px;
+	}
+	.right{
+		font-size: 100px;
+	}
+	.ka{
+	font-size: 30px;
+	}
+	#controls{
+		display: none;
+	}
+}
