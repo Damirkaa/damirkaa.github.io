@@ -1,0 +1,41 @@
+#slider{
+position: absolute;
+bottom: 77px;
+left: 117px;
+height: 90px;
+width: 55%; /* 3 images of 150px showing with a 10px margin = 3*(150) + 2*(10) = 470 */
+overflow: hidden;
+z-index: 1;
+}
+ 
+ 
+#slider img{
+position: absolute;
+top: 0px;
+height: 80px;
+width: 80px;
+cursor: pointer;
+overflow: hidden;
+}
+ 
+#carouselLeft{
+font-size: 40px;
+position: absolute;
+bottom: 100px;
+left: 50px;
+cursor: pointer;
+}
+#carouselLeft:hover{
+	color: #dfc7b4;
+}
+#carouselRight:hover{
+	color: #dfc7b4;
+}
+#carouselRight{
+font-size: 40px;
+position: absolute;
+bottom: 100px;
+right: 50px;
+cursor: pointer;
+z-index: 1;
+}

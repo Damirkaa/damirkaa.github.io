@@ -1,6 +1,7 @@
 @media  screen and (max-width:1240px ){
 	.art{
 		font-size: 40px;
+		line-height: 35px;
 	}
 	.art:after{
 		font-size: 12px;
@@ -69,6 +70,9 @@ li{
 	width:100%;
 	text-align: center;
 	}
+ 	#font:hover{
+	color: ##a735b9;
+} 
 	#menu_main li{
 		display: block;
 		margin-left: 0;
@@ -88,11 +92,11 @@ li{
 	li>span{
 		display: none;
 	}
-	#menu_bar{
-		display: block;
-	}
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+	display: block;
+} 
 }
-@media  screen and (max-width:626px ){
+@media  all and (max-width:626px ){
 	header{
 		max-width: 90%;
 	}
@@ -112,22 +116,26 @@ li{
 	}
 	.art_2{
 		font-size: 23px;
+		margin-top: 20px;
 	}
 	.art_3{
 		float: none;
 		font-size: 20px;
 		width: 60px;
 		line-height: 35px;
+		margin-top: 20px;
 	}
 	.art_3_1{
 		float: none;
 		font-size: 17px;
 		width: 60px;
 		line-height: 35px;
+		margin-top: 40px;
 	}
 	.art_4{
-		font-size: 18px;
+		font-size: 10px;
 		width: 110%;
+		margin-top: 20px;
 	}
 	.left_part{
 		width: 49%;
