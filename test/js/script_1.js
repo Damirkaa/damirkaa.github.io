@@ -186,5 +186,3 @@ $(document).ready(function (){
 		mark=5;
 	})
 });
-
-
