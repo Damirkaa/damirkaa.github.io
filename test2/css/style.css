@@ -58,14 +58,13 @@ body{
 
 
 .logo:after{
-	display: inline-block;
-	position: absolute;
-	bottom: -20px;
+	display: block;
 	content: "tagline here";
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	line-height: 0;
 }
 
 
