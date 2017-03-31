@@ -16,23 +16,31 @@
 .fa{
 	color: #fff;
 }
+.client img{
+	max-width: 60%;
+}
 #menu_bar{
 	display: none;
 	background-color: #2b303b;
-	margin-top: 20px;
+	right: 0;
+	width: 50%;
 	position: absolute;
 	z-index: 1;
-	width:100px;
 }
 .navigation > ul > li{
 	display: block;
-	margin-left: 0;
+	margin-left: 0;	
 	text-align: center;
 	font-size: 15px;
 	border-bottom:2px solid #fff;
 	line-height: 50px;
 }
-
+.navigation > ul > li:hover{
+	background-color: gray;
+}
+.but1{
+	margin-right: 0;
+}
 .man{
 	display: none;
 }
@@ -93,6 +101,7 @@ img{
 }
 .phone,.name,.email,.th23,.message{
 	float: none;
+	margin-right: 0!important;
 }
 
 .name ,.email ,.phone,.message{
@@ -135,9 +144,8 @@ td:nth-child(4){
 
 .ie{
 	font-size: 20px!important;
-	margin-left: -35px;
+	margin-left: -32px;
 }
-
 }
 
 @media  screen and (max-width:1150px){
@@ -145,16 +153,16 @@ td:nth-child(4){
 	float: none;
 	margin: 0 auto;
 }
-	.searchbox input#search{
-		width: 20%;
-	}
+.searchbox input#search{
+	width: 35%;
+}
 .th23{
 	float: none;
 	margin: 0 auto;
 }
-	#controls{
-		display: none;
-	}
+#controls{
+	display: none;
+}
 }
 @media  screen and (max-width:450px){
 	.logo{
@@ -195,6 +203,10 @@ td:nth-child(4){
 		margin: 0 auto;
 		margin-top: 25px;
 	}
+	.client {
+		margin-top: 50px;
+		margin-left: 40px;
+	}
 	#slider p{
 		font-size: 15px;
 		padding-top: 100px;
@@ -206,7 +218,10 @@ td:nth-child(4){
 		font-size: 100px;
 	}
 	.ka{
-	font-size: 30px;
+	font-size: 25px;
+	}
+	.lor{
+		font-size: 15px;
 	}
 	#controls{
 		display: none;

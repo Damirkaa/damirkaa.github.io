@@ -40,7 +40,7 @@ body{
 		/*logo*/
 
 .logo{
-	font-family: "Myriad Pro";
+	font-family: OpenSans Extrabold;
 	font-size: 53px;
 	text-decoration: none;
 	color:#eeb501;
@@ -59,6 +59,7 @@ body{
 
 .logo:after{
 	display: block;
+	font-family: OpenSans Bold;
 	content: "tagline here";
 	font-size: 14px;
 	color: #fff;
@@ -70,14 +71,23 @@ body{
 
 		/*navigation*/
 .navigation{
+	font-family: OpenSans Extrabold;
 	display: inline-block;
 	font-size: 20px;
 	text-transform: uppercase;
 	float: right;
-	margin-right: 30px;
+    margin-right: 45px;
 }
-
-
+i:hover{
+	color: gray;
+}
+.button:hover{
+	background-color: grey;
+}
+}
+#menu_bar{
+	display: inline-block;
+}
 ul{
 	display: inline-block;
 	vertical-align: middle;
@@ -91,16 +101,17 @@ ul{
 	text-decoration: none;
 	color: #fff;
 }
-
+.navigation > ul > li a:hover{
+	color: grey;
+}
 .searchbox{
-	width: 50px;
 	display: inline-block;
 	margin-left: 30px;
 }
 .searchbox input#search{
 	display: none;
 	width: 20%;
-	height: 30px;
+	height: 50px;
 	background: #2b303b;
 	border: none;
 	position: absolute;
@@ -118,7 +129,6 @@ ul{
 	display: inline-block;
 	font-size: 25px;
 	color: #fff;
-	margin-left: 50%;
 }
 
 
@@ -144,12 +154,14 @@ ul{
 	top: 40px;
 	color: #fff;
 	text-align: right;
-	font-family: "Times new roman";
+	font-family: OpenSans Extrabold;
 	float: right;
+	margin-right: 20px;
 	padding-bottom: 10%;
 }
 
 .copy p{
+	font-family: OpenSans;
 	word-spacing: 10px;
 	font-size: 20px;
 }
@@ -197,6 +209,7 @@ ul{
 }
 
 .button {
+	font-family: OpenSans Bold;
 	display:inline-block;
 	line-height: 50px;
 	width: 200px;
@@ -231,6 +244,7 @@ ul{
 
 		/*Second navig*/
 .navig{
+	font-family: OpenSans Extrabold;
 	display: inline-block;
 	text-align: left;
 	margin-top: 100px;
@@ -239,13 +253,11 @@ ul{
 
 .nav1{
 	font-size: 44px;
-	font-family: "Myriad Pro";
 	color: #333;
 }
 
 .nav2{
 	font-size: 65px;
-	font-family: "Myriad Pro";
 	color: #fff;
 	background-color:#eeb501;
 	padding-right: 50px;
@@ -256,7 +268,6 @@ ul{
 		/*services*/
 .services{
 	display: inline-block;
-	padding-top: 60px;
 	padding-bottom: 112px;
 }
 
@@ -298,13 +309,12 @@ ul{
 }
 .sp{
 	font-size: 25px;
-	font-family: "Myriad Pro";
+	font-family: OpenSans Bold;
 }
 
 .copy1 p{
 	font-size: 15px;
-	font-family: "Myriad Pro";
-	padding-top: 5px;
+	font-family: OpenSans;
 }
 
 				/*Third*/
@@ -322,18 +332,20 @@ ul{
 
 
 .headd{
-	font-family: "Myriad Pro";
 	color: #fff;
 	text-align: center;
 }
 
 .her{
+	font-family: OpenSans-Italic;
 	font-size: 29px;
 }
 .awes{
+	font-family: OpenSans Extrabold;
 	font-size: 43px;
 }
 .lor{
+	font-family: OpenSans;
 	font-size: 20px;
 }
 
@@ -385,10 +397,10 @@ ul{
 }
 .col{
 	color: #504545;
-	font-family: "Myriad Pro";
 }
 
 .ka{
+	font-family: OpenSans Extrabold;
 	font-size: 50px;
 	color: #eeb501;
 }
@@ -425,7 +437,6 @@ ul{
 }
 #slider{
 	width: 90%;
-	font-family: "Myriad Pro";
 	color: #fff;
 	padding-bottom: 100px;
 	height: 500px;
@@ -433,7 +444,7 @@ ul{
 	margin: 0 auto;
 }
 #slider p{
-	font-family: "Myriad Pro";
+	font-family: OpenSans-Italic;
 	font-size: 25px;
 	color: #fff;
 	padding-top: 150px;
@@ -552,14 +563,13 @@ table{
 	padding-top: 52px;
 	padding-bottom: 50px;
 	width: 100%;
-	text-align: center;
+	border-collapse: collapse;
+	margin-top: 60px
 }
-
 
 td:nth-child(1),td:nth-child(2),td:nth-child(3){
 	border-right: 2px solid #a3a3a3;	
 }
-td:nth-child(4){padding-right: 0;}
 .Table_tr2 > td{
 	border-top: 2px solid #a3a3a3;
 }
@@ -580,6 +590,7 @@ td:nth-child(4){padding-right: 0;}
 form{
 	padding-top: 60px;
 	width: 100%;
+	font-family: OpenSans;
 }
 input{
 	background-color: #2e2e2e;
@@ -606,6 +617,7 @@ input{
 	width: 80%;
 }
 .subm{
+	font-family: OpenSans Bold;
 	margin-top: 25px;
 	color: #fff;
 	background: 0;
@@ -625,6 +637,7 @@ input{
 	display: inline-block;
 	height: 60px;
 	width: 100%;
+	padding: 0;
 }
 
 .seve > li{
@@ -647,7 +660,15 @@ input{
 	margin-top: 13px;
 	margin-left: -43px;
 }
-
+form input{
+	border-radius: 10px;
+	height: 60px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 footer{
 	margin-top: 50px;
 	display: inline-block;
@@ -656,6 +677,7 @@ footer{
 }
 
 .lorr{
+	font-family: OpenSans;
 	font-size: 20px;
 }
 footer > span{

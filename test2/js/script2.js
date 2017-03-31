@@ -1,15 +1,15 @@
 
 $("#see").click(function(e) {
     var $message = $("#search");
- 
-    if ($message.css('display') != 'inline-block') {
+
+    if ($message.css("display") != "inline-block") {
         $message.show();
  
         var firstClick = true;
-        $(document).bind('click.myEvent', function(e) {
+        $(document).bind("click.myEvent", function(e) {
             if (!firstClick && $(e.target).closest("#search").length == 0) {
                 $message.hide();
-                $(document).unbind('click.myEvent');
+                $(document).unbind("click.myEvent");
             }
             firstClick = false;
         });
