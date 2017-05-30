@@ -79,7 +79,7 @@ var left_menu = document.querySelector('.content_left_menu');
 var left_menu_after = document.querySelector('.content_left_menu_after');
 var flag = true;
 var flag2 = false;
-if (screen.width > 1024) {
+if ((screen.width > 1024) && ((browser != "MSIE") || (browser != "Netscape"))) {
 	window.onscroll = function() {
 	var scrolled = window.pageYOffset || document.documentElement.scrollTop;
 	var scrolled_round = Math.round(scrolled);
