@@ -72,6 +72,17 @@ window.onclick = function(event) {
     }
 }
 
+function get_name_browser(){
+    var ua = navigator.userAgent;    
+    if (ua.search(/Chrome/) > 0) return 'Google Chrome';
+    if (ua.search(/Firefox/) > 0) return 'Firefox';
+    if (ua.search(/Opera/) > 0) return 'Opera';
+    if (ua.search(/Safari/) > 0) return 'Safari';
+    if (ua.search(/MSIE/) > 0) return 'Internet Explorer';
+    return 'Не определен';
+}
+var browser = get_name_browser();
+
 //scroll
 var main_block = document.querySelector('.for_scroll');
 var long = main_cont.offsetTop;
@@ -79,7 +90,7 @@ var left_menu = document.querySelector('.content_left_menu');
 var left_menu_after = document.querySelector('.content_left_menu_after');
 var flag = true;
 var flag2 = false;
-if ((screen.width > 1024) ) {
+if ((screen.width > 1024) && (browser == 'Google Chrome') ) {
 	window.onscroll = function() {
 	var scrolled = window.pageYOffset || document.documentElement.scrollTop;
 	var scrolled_round = Math.round(scrolled);
