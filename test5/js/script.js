@@ -94,14 +94,14 @@ function swap(a, b){
 
 // Описываем класс MyArray
 class MyArray{
-	// описываем конструктор для класса MyArray
+	// описываем конструктор для класса MyArray,все значения переводим в число
   constructor(length,min,max) {
 		// Длина
-    this.length = length;
+    this.length = Number(length);
 		// Максимальное значение
-    this.max = max;
+    this.max = Number(max);
 		// Минимальное значение
-    this.min = min;
+    this.min = Number(min);
 		// Определяем массив
     this.massiv = new Array(length);
   }
@@ -109,7 +109,7 @@ class MyArray{
 	// Метод заполнения массива случайными числами от мин до макс
   createArray(){
 		// если мин больше макс, то меняем мин и макс местами
-    if (this.min >>> this.max){
+    if (this.min > this.max){
       let c = this.min ;
       this.min = this.max;
       this.max = c;
@@ -242,11 +242,13 @@ $(document).ready(function(){
 	  $( "#btnCreateArray" ).removeAttr("disabled");
 		$( "#btnSortArray" ).removeAttr("disabled");
   });
+	// обработчик нажатя кнопки информация
 	$( "#btnInfo" ).click(function() {
 		$('.popup-info').fadeIn();
   });
+	// обработчик нажатя кнопки зкрыть в попапе информация
 	$( ".popupClose" ).click(function() {
 		$('.popup-info').fadeOut();
   });
-	
+
 })
