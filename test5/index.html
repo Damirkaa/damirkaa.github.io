@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Сортировка</title>
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="buttons-fixed__wrap">
+      <button type="button" id = "btnInfo">Информация</button>
+      <button type="button" class = "btnRastart">Начать заново</button>
+    </div>
+    <div class="popup-info">
+      <h2>Информация</h2>
+      <p>Перед вами на странице 3 поля</p>
+      <p>- 1 поле: Для ввода длинны массива, должна быть больше 0.</p>
+      <p>- 2 поле: Для ввода минимума массива, любое целое число.</p>
+      <p>- 3 поле: Для ввода максимума массива, любое целое число.</p>
+      <p>После ввода всех данных нужно нажать на кнопку "Создать массив".</p>
+      <p>После нажатия кнопки на экране должен появиться массив, который не будет изменяться и который будет изменяться.</p>
+      <p>После того, как массивы появились на экране, нужно нажать на кнопку "Сортировать".</p>
+      <p>После того, как массив отсортировался, появиться всплывающее окно.</p>
+      <p>Так же на странице есть кнопка "Начать заного", которая сбросит массив и удалит блоки с массивами с экрана.</p>
+      <button type="button" class = "popupClose">Закрыть</button>
+    </div>
+    <div class="popup">
+      <h2>Сортировка прошла успешно</h2>
+      <div class="popup-button__wrap">
+        <button type="button" class = "btnRastart">Начать заново</button>
+        <button type="button" id = "btnClose">Закрыть</button>
+      </div>
+    </div>
+    <h1>Сортировка пузырьком</h1>
+    <div class="inputs-wrap">
+      <div class="input-wrap">
+        <input type="text" id = "ArrayLength" placeholder="Введите количество элементов в массиве">
+      </div>
+      <div class="input-wrap">
+        <input type="text" id = "MinNumber" placeholder="Введите минимальное значение элемента в массиве">
+      </div>
+      <div class="input-wrap">
+        <input type="text" id = "MaxNumber" placeholder="Введите максимальное значение элемента в массиве">
+      </div>
+      <div class="input-wrap">
+        <button type="button" id = "btnCreateArray"> Создать массив</button>
+      </div>
+    </div>
+    <div class="unchanged-array-wrap">
+      <h2>Исходный массив</h2>
+      <div class="unchanged-array"></div>
+    </div>
+    <div class="sorted-array-wrap">
+      <h2>Массив, который мы будем сортировать</h2>
+      <div class="changed-array"></div>
+      <div class="input-wrap">
+        <button type="button" id = "btnSortArray"> Сортировать</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+</html>
