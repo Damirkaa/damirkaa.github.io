@@ -890,7 +890,7 @@ header .header-wrap .header-text * {
   }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 420px) {
   .offers-wrap .offers-item {
     width: 100%;
   }
